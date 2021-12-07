@@ -20,7 +20,6 @@ start_time= time.time()
 
 
 
-
 parser = argparse.ArgumentParser(description='COVID-19 Detection from X-ray Images')
 parser.add_argument('--test_covid_path', type=str, default='./data/test/covid/',
                       help='COVID-19 test samples directory')
